@@ -10,7 +10,7 @@ const AboutCard = () => {
       <section className='aboutHome'>
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='./images/about.webp' alt='' />
+            <img src='./images/about2.webp' alt='' />
           </div>
           <div className='right row'>
             <Heading subtitle='PROFESSIONAL HANDYMAN' title='Handyman Services & Repairs in the Niagara Region.' />
