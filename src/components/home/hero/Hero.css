@@ -12,6 +12,16 @@
   padding-right: 50px;
   color: #fff;
 }
+  /* animation: 20s slideshow infinite;
+}
+
+@keyframes slideshow {
+  0% { background-image: url(../../../../public/images/hero4.webp); }
+  25% { background-image: url(../../../../public/images/hero3.webp); }
+  50% { background-image: url(../../../../public/images/hero4.webp); }
+  75% { background-image: url(../../../../public/images/hero3.webp); }
+  100% { background-image: url(../../../../public/images/hero4.webp); }
+} */
 .hero #heading h3 {
   color: #fff;
 }

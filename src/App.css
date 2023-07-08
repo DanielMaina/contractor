@@ -86,7 +86,7 @@ p {
 }
 
 .back {
-  background-image: url("../public/images/back2.webp");
+  /* background-image: url("../public/images/back2.webp"); */
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -99,6 +99,15 @@ p {
   padding-right: 50px;
   color: #fff;
   text-align: center;
+  animation: 20s slideshow infinite;
+}
+
+/* increase the percentages between to decrease speed */
+@keyframes slideshow {
+  0% { background-image: url(../public/images/back.webp); }
+  25% { background-image: url(../public/images/back2.webp); }
+  50% { background-image: url(../public/images/back3.webp); }
+  100% { background-image: url(../public/images/back.webp); }
 }
 .back h1 {
   font-size: 100px;
